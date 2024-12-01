@@ -352,4 +352,4 @@ WHERE cp2.purchase_at BETWEEN '2024-11-01 00:00:00' AND '2024-11-30 23:59:59'
 SELECT COUNT(DISTINCT user_id) AS 預約會員人數
 FROM "COURSE_BOOKING" cb 
 WHERE created_at BETWEEN '2024-11-01 00:00:00' AND '2024-11-30 23:59:59'
-  AND status NOT IN ('課程已取消');
+AND status NOT IN ('課程已取消');
